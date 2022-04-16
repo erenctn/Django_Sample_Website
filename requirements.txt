@@ -1,0 +1,16 @@
+asgiref==3.2.10
+boltons==20.2.1
+certifi==2020.6.20
+click==7.1.2
+click-log==0.3.2
+Django==3.1
+django-email-verification==0.0.7
+gunicorn==20.1.0
+maildir-deduplicate==2.2.0
+progressbar2==3.52.1
+python-utils==2.4.0
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
+tabulate==0.8.7
+whitenoise==6.0.0
