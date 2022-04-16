@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+
+    {%  for x in video %}
+
+        <h2 class="text-center"> {{ x.caption }} </h2>
+        <video width="600" height="600" class="embed-responsive embed-responsive-16by9" controls="controls">
+        <source src="{{ x.video.url }}" type="video/mp4">
+        </video>
+
+    {% endfor %}
+
+
+    </div>
+{% endblock %}
